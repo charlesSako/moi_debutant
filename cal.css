@@ -1,0 +1,70 @@
+body{
+margin-top: 100px;
+margin-left: 500px;
+}
+
+.calco{
+  border-radius: 20px;
+  height: 400px;
+  width: 350px;
+  background: grey;
+   border: 1px solid black;
+   position: center;
+}
+.calco h1{
+  margin: 20px;
+  padding-top: 20px;
+  margin-left: 75px;
+  border-radius: 25px;
+}
+.bout{
+  padding-bottom: 55px;
+  margin-left: 25px;
+}
+.calc #val1{
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 45px;
+  width: 110px;
+}
+.calc #val2{
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 45px;
+  width: 110px;
+}
+.bouton{
+margin-left: 35px;
+}
+.bouton #add{
+  height: 25px;
+  width: 80px;
+  margin-bottom: 10px;
+  background: blue;
+  color: white;
+  margin-left: 45px;
+}
+.bouton #Sous{
+  height: 25px;
+  width: 80px;
+  margin-bottom: 10px;
+  background: blue;
+  color: white;
+  margin-left: 45px;
+}
+.bouton #multi{
+  height: 25px;
+  width: 80px;
+  margin-bottom: 10px;
+  background: blue;
+  color: white;
+  margin-left: 45px;
+}
+.bouton #quotien{
+  height: 25px;
+  width: 80px;
+  margin-bottom: 10px;
+  background: blue;
+  color: white;
+  margin-left: 45px;
+}

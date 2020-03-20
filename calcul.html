@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="calcul.css"/>
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Calculatrice de Part</h1>
+			<div id="calculator">
+				<form>
+          <p>Nos différents services</p>
+					<p>
+						<select id="article" onchange="myFunction()">
+							<option disabled selected value="0">Faites votre choix</option>
+							<option value="1">Poulet Roti</option>
+							<option value="2">Poulet de Chair</option>
+              <option value="3">Poulet Bicyclette</option>
+							<option value="4">Pondeuses</option>
+              <option value="5">Poulet Pané</option>
+							<option value="6">Coq Metissé</option>
+						</select>
+					</p>
+					<p>Prix unitaire de nos produits</p>
+					<p>
+						<input
+							id="pu"
+							type="number"
+							placeholder="montant de la facture"
+              disabled= "disabled"
+						/>
+						F CFA
+					</p>
+          <p>
+            <input
+              id="quant"
+              type="text"
+              placeholder="Quantité"
+              onkeyup="myFunction()"
+            />
+          </p>
+
+				</form>
+
+				<p>Montant total</p>
+				<form onsubmit="myFunction()" action="fel.html" method="post">
+
+				<input id="tot" type="onsubmit" placeholder="Total" />
+				<button type="onsubmit" id="calculate">Confirmer</button>
+				</form>
+			</div>
+			<!--calculator end-->
+
+		</div>
+		<!--container end-->
+
+		<script type="text/javascript" src="java.js"></script>
+	</body>
+</html>

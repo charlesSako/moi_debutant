@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cal.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+      <div class="col-md-3"></div>
+    <div class="col-md-6">
+    <div class="calco">
+    <h1>Calculons</h1>
+    <div class="bout">
+    <form class="calc" action="" method="post">
+      <label for="fname"> valeur 1</label>
+      <input type="text" id="val1" name="val1" placeholder="entrer un nombre"><br>
+      <label for="valeur2">Valeur 2</label>
+      <input type="text" id="val2" name="val2" placeholder="entrer un nombre" > <br><br>
+      <div class="bouton">
+      <button type="button" id="add" onclick="plus()">Additionner</button><br>
+      <button type="button" id="Sous" onclick="soustr()">Soustraire</button><br>
+      <button type="button" id="multi" onclick="mult()">Multiplier</button><br>
+      <button type="button" id="quotien" onclick="quot()">Diviser</button> <br> <br>
+      </div>
+        <button type="submit" id="Val">Annuler</button>
+      <label for="">total</label>
+      <input type="text" id="tot" name="" value="" >
+    </form>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+    </div>
+<script src="cal.js"></script>
+  </body>
+</html>

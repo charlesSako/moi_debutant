@@ -286,7 +286,7 @@ footer {
 		left: 0;
 	}
 	.fotter-menu ul li a {
-		position: ;
+		position: fixed;
 		line-height: 38px;
 		font-size: 19px;
 		color: #4d4d4d;
@@ -370,3 +370,6 @@ footer {
   text-align: left;
   vertical-align: middle;
 }*/
+.h2{
+  color: #747373;
+}
